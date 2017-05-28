@@ -16,11 +16,11 @@ create table AGENCIA (
 create table CLIENTE (
    ID_CLIENTE           INT4                 not null,
    ID_VUELO             INT4                 null,
-   NOMBRE               VARCHAR(12)          null,
-   APELLIDOS            VARCHAR(12)          null,
-   TELEFONO             VARCHAR(12)          null,
-   DIRECCION            VARCHAR(12)          null,
-   EMAIL                VARCHAR(12)          null,
+   NOMBRE               VARCHAR(20)          null,
+   APELLIDOS            VARCHAR(20)          null,
+   TELEFONO             VARCHAR(20)          null,
+   DIRECCION            VARCHAR(20)          null,
+   EMAIL                VARCHAR(20)          null,
    TIPO_VIAJE           VARCHAR(40)          null,
    FECHA_ESTIMADA_REGRESO DATE                 null,
    constraint PK_CLIENTE primary key (ID_CLIENTE)

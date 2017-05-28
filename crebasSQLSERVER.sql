@@ -16,11 +16,11 @@ go
 create table CLIENTE (
    ID_CLIENTE           int                  not null,
    ID_VUELO             int                  null,
-   NOMBRE               varchar(12)          null,
-   APELLIDOS            varchar(12)          null,
-   TELEFONO             varchar(12)          null,
-   DIRECCION            varchar(12)          null,
-   EMAIL                varchar(12)          null,
+   NOMBRE               varchar(20)          null,
+   APELLIDOS            varchar(20)          null,
+   TELEFONO             varchar(20)          null,
+   DIRECCION            varchar(20)          null,
+   EMAIL                varchar(20)          null,
    TIPO_VIAJE           varchar(40)          null,
    FECHA_ESTIMADA_REGRESO datetime             null,
    constraint PK_CLIENTE primary key nonclustered (ID_CLIENTE)

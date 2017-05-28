@@ -18,11 +18,11 @@ create table CLIENTE
 (
    ID_CLIENTE           INTEGER              not null,
    ID_VUELO             INTEGER,
-   NOMBRE               VARCHAR2(12),
-   APELLIDOS            VARCHAR2(12),
-   TELEFONO             VARCHAR2(12),
-   DIRECCION            VARCHAR2(12),
-   EMAIL                VARCHAR2(12),
+   NOMBRE               VARCHAR2(20),
+   APELLIDOS            VARCHAR2(20),
+   TELEFONO             VARCHAR2(20),
+   DIRECCION            VARCHAR2(20),
+   EMAIL                VARCHAR2(20),
    TIPO_VIAJE           VARCHAR2(40),
    FECHA_ESTIMADA_REGRESO DATE,
    constraint PK_CLIENTE primary key (ID_CLIENTE)
