@@ -23,6 +23,7 @@ create table CLIENTE (
    EMAIL                varchar(20)          null,
    TIPO_VIAJE           varchar(40)          null,
    FECHA_ESTIMADA_REGRESO datetime             null,
+   FECHA_NACIMIENTO datetime             null,
    constraint PK_CLIENTE primary key nonclustered (ID_CLIENTE)
 )
 go

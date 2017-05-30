@@ -25,6 +25,7 @@ create table CLIENTE
    EMAIL                VARCHAR2(20),
    TIPO_VIAJE           VARCHAR2(40),
    FECHA_ESTIMADA_REGRESO DATE,
+   FECHA_NACIMIENTO DATE                 null,
    constraint PK_CLIENTE primary key (ID_CLIENTE)
 );
 
